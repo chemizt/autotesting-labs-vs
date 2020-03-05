@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayProcessForm", "ArrayProcessForm\ArrayProcessForm.csproj", "{3DBA1B54-1AA6-4833-8538-68084F35FB37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1Tests", "Lab1Tests\Lab1Tests.csproj", "{2EB25601-BDFA-44FF-AC60-E03D956AB6BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3DBA1B54-1AA6-4833-8538-68084F35FB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DBA1B54-1AA6-4833-8538-68084F35FB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DBA1B54-1AA6-4833-8538-68084F35FB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB25601-BDFA-44FF-AC60-E03D956AB6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB25601-BDFA-44FF-AC60-E03D956AB6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB25601-BDFA-44FF-AC60-E03D956AB6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB25601-BDFA-44FF-AC60-E03D956AB6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

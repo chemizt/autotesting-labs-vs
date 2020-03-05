@@ -1,7 +1,7 @@
-﻿using System;
+﻿using ArrayProcessForm.Modules;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using ArrayProcessForm.Modules;
 
 namespace ArrayProcessForm
 {
