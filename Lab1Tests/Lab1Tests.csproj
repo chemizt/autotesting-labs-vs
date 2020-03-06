@@ -52,6 +52,7 @@
     <Compile Include="Modules\DigitAverageCalculator.cs" />
     <Compile Include="Modules\DigitCountCalculator.cs" />
     <Compile Include="Modules\MaxDigitFinder.cs" />
+    <Compile Include="Tests\IntegratedTests.cs" />
     <Compile Include="Tests\ModuleUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
