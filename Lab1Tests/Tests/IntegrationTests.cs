@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace Lab1Tests.Tests
 {
     [TestClass]
-    public class IntegratedTests
+    public class IntegrationTests
     {
         [TestMethod]
         public void DigitAverageAndDigitCountTest()
@@ -14,6 +14,7 @@ namespace Lab1Tests.Tests
             string s = "8820";
             int digitCount = DigitCountCalculator.Calculate(s);
             float digitSum = 18;
+
             Assert.AreEqual(digitSum / digitCount, DigitAverageCalculator.Calculate(s));
         }
 
@@ -24,13 +25,14 @@ namespace Lab1Tests.Tests
             int value = 0;
             float average = 2;
             int digitSum = 8;
+
             foreach (int testNumber in testArray)
             {
                 value = DigitAverageCalculator.Calculate(testNumber) < 7 && MaxDigitFinder.Find(testNumber) == 7 ? testNumber : value;
             }
-            Assert.AreEqual(2, digitSum / DigitCountCalculator.Calculate(value));
-            Assert.AreEqual(7100, value);
 
+            Assert.AreEqual(average, digitSum / DigitCountCalculator.Calculate(value));
+            Assert.AreEqual(7100, value);
         }
     }
 }

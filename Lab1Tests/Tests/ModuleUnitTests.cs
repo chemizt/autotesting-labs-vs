@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ArrayProcessForm.Modules;
 
-namespace Lab1Tests
+namespace Lab1Tests.Tests
 {
     [TestClass]
     public class DigitAverageTest

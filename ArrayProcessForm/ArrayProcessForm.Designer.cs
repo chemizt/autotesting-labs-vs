@@ -43,7 +43,7 @@
             this.EnterButton.Margin = new System.Windows.Forms.Padding(0);
             this.EnterButton.Name = "EnterButton";
             this.EnterButton.Size = new System.Drawing.Size(75, 22);
-            this.EnterButton.TabIndex = 0;
+            this.EnterButton.TabIndex = 1;
             this.EnterButton.Text = "Ввод";
             this.EnterButton.UseVisualStyleBackColor = true;
             this.EnterButton.Click += new System.EventHandler(this.EnterButton_Click);
@@ -55,7 +55,7 @@
             this.NumberInputTextBox.MaxLength = 4;
             this.NumberInputTextBox.Name = "NumberInputTextBox";
             this.NumberInputTextBox.Size = new System.Drawing.Size(87, 20);
-            this.NumberInputTextBox.TabIndex = 1;
+            this.NumberInputTextBox.TabIndex = 0;
             this.NumberInputTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberInputTextBox_KeyPress);
             // 
             // NumbersListBox
