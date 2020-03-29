@@ -17,23 +17,9 @@ namespace Lab1Tests.Tests
 
         private void PrepareTestData()
         {
-            Random random = new Random();
-            testData = new List<int>();
+            testData = new List<int> { 1171, 1234, 5688, 2372, 1111, 1488, 1337, 1036, 8922, 9876 };
 
-            for (int i = 0; i < 10; i++)
-            {
-                testData.Add(random.Next(1000, 10000));
-            }
-            
-            testDataAnalysisResult = 0;
-        }
-
-        private void AnalyzeTestData()
-        {
-            foreach (int number in testData)
-            {
-                if (DigitAverageCalculator.Calculate(number) < 7 && MaxDigitFinder.Find(number) == 7) testDataAnalysisResult++;
-            }
+            testDataAnalysisResult = 3;
         }
         
         [TestMethod]
@@ -104,7 +90,6 @@ namespace Lab1Tests.Tests
         public void TestApplicationFully()
         {
             PrepareTestData();
-            AnalyzeTestData();
             StartApplication();
             InputNumbers();
             ProcessNumbers();
